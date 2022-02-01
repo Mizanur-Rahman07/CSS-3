@@ -1,0 +1,14 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid rebeccapurple;
+}
+.outer{
+    background-color: rosybrown;
+}
+.inner{
+    background-color: bisque;
+    /* transform: scale(0.5); */
+    /* transform: translate(100px); */
+    transform: rotate(50deg) scale(0.75);
+}
