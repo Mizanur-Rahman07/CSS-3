@@ -1,0 +1,19 @@
+.box{
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    border-radius: 5%;
+    border: 5px solid mediumseagreen;
+}
+.container{
+    display: flex;
+    justify-content:flex-end;    
+   /* space-around,space-evenly,space-between */
+}
+.game{
+    margin-left: auto;
+}
+
+/* flexbox many tricks link discription
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/

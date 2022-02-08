@@ -1,0 +1,42 @@
+.box{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 1px solid skyblue;
+    background-color:black;
+    transition: background-color 5s ease-in 2s, width 7s ease-in 2s,height 7s ease-in 2s;
+
+}
+.box:hover{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+.bat{
+    height: 450px;
+}
+.bat{
+   transition: transform .2s ease-out;
+}
+.bat:hover{
+    transform: rotate(-60deg);
+    transform-origin: 100% 0%;
+}
+.ball{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    left: 630px ;
+    transition: transform 2s ease-out 0.3s;
+}
+.field:hover .ball{
+    transform: translate(900px, -200px);
+}
+.ball{
+    transition: transform 2s ease-out 
+}
+
+

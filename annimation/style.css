@@ -1,0 +1,33 @@
+.stage{
+background-color: lightslategray;
+height: 200px;
+min-width: 800px;
+}
+.ball{
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border-radius: 50%;
+    position: absolute;
+}
+@keyframes slideshow {
+    0%{
+        left: 0;
+        top: 0;
+        background-color:yellow;
+    }
+    50%{
+        left: 400px;
+        top: 100px;
+background-color: red;
+    }
+    100%{
+        left: 800px;
+        top: 0;
+        background-color: blue;
+    }
+}
+
+.stage:hover .ball{
+    animation: slideshow 2s ease-in-out 1s infinite alternate;
+}

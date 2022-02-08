@@ -1,0 +1,13 @@
+.box{
+    border: 3px solid mediumturquoise;
+}
+.grid{
+    display: grid;
+    /* grid-template-columns: 300px 200px 100px; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+/* grid study link discripton
+https://www.viget.com/articles/getting-started-with-css-grid-part-1/
+*/
