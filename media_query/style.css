@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    max-width: 1200px;
+}
+.food{
+    border:3px solid lightskyblue;
+    border-radius: 30px;
+   margin: 10px;
+    width: 350px;
+}
+.food img{
+    width: 100%;
+}
