@@ -1,6 +1,9 @@
 .container{
     display: flex;
     max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .food{
     border:3px solid lightskyblue;
